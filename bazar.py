@@ -14,18 +14,21 @@ print("Miles: %.2f"%miles)
 # In[ ]:
 
 
-sec = input("Enter seconds: ")
-min = input("Enter minutes: ")
-km = input("Enter kilometers: ")
-
-SEC = int(sec)
-MIN = int(min)
+km = input("Enter kilometer: ")
 KM = float(km)
-
 klm = 1.61
-miles= KM/klm
+miles = KM/klm
 
-min
-sec
+min = 42
+avem = KM/miles
+print("Average time per mile in minutes: %f"%avem)
+
+sec = 42
+aves = sec/miles
+print("Average time per mile in seconds: %f"%aves)
+
+secperh = 42/60
+avemph = 6.21/secperh
+print("Average speed in miles per hour: %f"%avemph)
 
 
